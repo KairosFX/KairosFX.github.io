@@ -1,0 +1,50 @@
+body {
+    background-color: #0f1117;
+    color: #e6edf3;
+    font-family: monospace;
+    margin: 0;
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+p {
+    color: #8b949e;
+}
+
+.projects h2 {
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 10px;
+}
+
+.project {
+    background-color: #161b22;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+pre {
+    background-color: #0d1117;
+    padding: 15px;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 60px;
+}

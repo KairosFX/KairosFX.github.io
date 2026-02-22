@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kairos | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Kairos</h1>
+        <p>Python Developer • Future Quant • Systems Thinker</p>
+    </header>
+
+    <section class="projects">
+        <h2>Featured Code</h2>
+
+        <div class="project">
+            <h3>Password Validator</h3>
+            <pre><code>
+def validate_password(password):
+    if len(password) < 8:
+        return False
+    if not any(char.isupper() for char in password):
+        return False
+    if not any(char.isdigit() for char in password):
+        return False
+    return True
+            </code></pre>
+        </div>
+
+    </section>
+
+    <footer>
+        <a href="https://github.com/KairosFX" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </footer>
+
+</body>
+</html>
